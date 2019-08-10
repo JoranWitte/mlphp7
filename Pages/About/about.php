@@ -15,7 +15,7 @@
     echo "  <frame posn='-160 55 1'>"; echo "\n";
     echo "    <quad id='' posn='2 0 -5' sizen='316 ".(14+5*substr_count($about_presentation, "\n"))."' bgcolor='$000' />"; echo "\n";
 	echo "    <quad id='manialinkimage' posn='10 -7 1' sizen='300 110' image='$manialinkimage'/>"; echo "\n";
-    echo "    <label id='' posn='7 -5' textsize='3' textcolor='$fff' text='".htmlspecialchars($about_presentation, ENT_QUOTES, 'UTF-8')."' />"; echo "\n";
+    echo "    <label id='' posn='7 -5' textsize='3' textcolor='$text_color' text='".htmlspecialchars($about_presentation, ENT_QUOTES, 'UTF-8')."' />"; echo "\n";
     echo "  </frame>"; echo "\n";
   }
   
