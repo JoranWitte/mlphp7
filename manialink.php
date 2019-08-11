@@ -27,8 +27,7 @@
 	}
   if(!$requestHandled){
     //displays default page
-    reset($pages);
-    list($key, $value) = each($pages);
+    $value = reset($pages);
     $simplename =  preg_replace('/ /i', '', $value);
     $functionName = strtolower($simplename).'_'.strtolower($simplename).'Handle';
     $requestHandled = $functionName(true);

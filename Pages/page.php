@@ -41,11 +41,6 @@
 	    }
 	  }
     echo "  <label id='copyright' posn='-157 88 1' halign='left' textsize='1' textcolor='$quick_manialink_text_color' text='Powered by Quick Manialink' manialink='akbalder?QuickManialink' />"; echo "\n";
-    echo "  <frame posn='122 88'>";
-    $encodedManialink = urlencode($manialink);
-    $encodedTitle = urlencode($title);
-    echo "    <include url='http://maniahome.maniaplanet.com/add/?url=$encodedManialink&amp;name=$encodedTitle'/>";
-    echo "  </frame>";
   }
   
   function endPage(){
